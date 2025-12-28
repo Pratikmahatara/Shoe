@@ -162,9 +162,11 @@ const CartPage = () => {
                                     </div>
                                 </div>
 
-                                <button className="w-full py-4 bg-primary text-primary-foreground rounded-full font-bold hover:bg-accent transition-all duration-300 shadow-lg shadow-accent/20 mb-4">
-                                    Proceed to Checkout
-                                </button>
+                                <Link href="/checkout" className="w-full">
+                                    <button className="w-full py-4 bg-primary text-primary-foreground rounded-full font-bold hover:bg-accent transition-all duration-300 shadow-lg shadow-accent/20 mb-4">
+                                        Proceed to Checkout
+                                    </button>
+                                </Link>
 
                                 <p className="text-[10px] text-center text-muted-foreground uppercase tracking-widest">
                                     Secure Checkout Guaranteed
